@@ -1,0 +1,19 @@
+{
+  "name": "vite-skeleton",
+  "version": "1.0.0",
+  "description": "- Trojan初始化Client端 模板",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trojan0523/vite-skeleton.git"
+  },
+  "author": "trojan0523",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trojan0523/vite-skeleton/issues"
+  },
+  "homepage": "https://github.com/Trojan0523/vite-skeleton#readme"
+}
