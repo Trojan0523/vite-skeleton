@@ -14,7 +14,7 @@ export default defineComponent({
     setup (props, context: SetupContext<Array<'update:count'>>) {
         const { execFunction } = useTemplate(props, context)
         return () => (
-            <div onClick={() => { execFunction() }}>click me</div>
+            <button style={{ border: '2px solid red', borderRadius: '4px' }} onClick={() => { execFunction() }}>click me</button>
         )
     }
 })

@@ -5,7 +5,7 @@ export interface IMyRouteItem {
     path: string,
     redirect?: string | { name: string },
     component?: (() => Promise<typeof import('*.vue')>) | (typeof import('*.vue').default) | string | unknown,
-    meta: {
+    meta?: {
         title: string,
         alwaysShow?: boolean,
     },
