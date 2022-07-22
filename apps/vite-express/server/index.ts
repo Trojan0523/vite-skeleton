@@ -11,7 +11,7 @@ dotenv.config()
 async function createBFF () {
 
     const app: Express = express()
-    const port = process.env.PORT
+    const port = process.env.STATIC_PORT
     // handle request parameters
     app.use(bodyParser.json({ limit: 1024 * 1024 * 10 }))
 

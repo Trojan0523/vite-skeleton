@@ -15,7 +15,7 @@ import templateComponent from './views/template/template'
     </a>
   </div>
   <templateComponent />
-  <HelloWorld msg="Vite + Vue Yeah Cool1" />
+  <HelloWorld msg="Vite + Vue Yeah Cool" />
 </template>
 
 <style scoped>
