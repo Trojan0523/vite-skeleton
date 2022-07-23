@@ -12,9 +12,9 @@ export default defineComponent({
   },
   emits: ['update:count'],
   setup (props, context: SetupContext<Array<'update:count'>>) {
-    const { execFunction } = useTemplate(props, context)
+    const { execFunction, changeCount } = useTemplate(props, context)
     return () => (
-      <button style={{ border: '2px solid red', borderRadius: '4px' }} onClick={() => { execFunction() }}>click me</button>
+      <button style={{ border: '2px solid green', borderRadius: '4px' }} onClick={() => { execFunction(); changeCount() }}>click me</button>
     )
   }
 })

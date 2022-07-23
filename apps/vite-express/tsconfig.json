@@ -16,7 +16,17 @@
     "skipLibCheck": true,
     "outDir": "./dist"
   },
+  "paths": {
+    "@/*": ["src/*"],
+    "@components/*": ["src/components/*"],
+    "@router/*": ["src/router/*"],
+    "@store/*": ["src/store/*"],
+    "@styles/*": ["src/styles/*"],
+    "@utils/*": ["src/utils/*"],
+    "@views/*": ["src/views/*"],
+    "@server/*": ["server/*"],
+  },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "exclude": ["node_modules", "dist"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  // "references": [{ "path": "./tsconfig.node.json" }]
 }

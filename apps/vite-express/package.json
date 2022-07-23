@@ -4,8 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "start": "esno server/index.ts",
+    "start:dev": "esno server/index.ts",
     "build": "vite build",
     "type:check": "vue-tsc --noEmit",
     "test:unit": "vitest run --update",

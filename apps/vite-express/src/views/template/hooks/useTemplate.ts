@@ -1,6 +1,5 @@
 import { SetupContext, toRefs } from 'vue'
 
-
 export function useTemplate (props: Record<string, any>, { emit }: SetupContext<Array<'update:count'>>) {
   const { count } = toRefs(props)
   const execFunction = () => {
@@ -12,5 +11,6 @@ export function useTemplate (props: Record<string, any>, { emit }: SetupContext<
   return {
     execFunction,
     changeCount,
+    count,
   }
 }
