@@ -14,12 +14,12 @@ setupRouter(app)
 setupStore(app)
 
 router.beforeEach((to, from ,next) => {
-    next()
+  next()
 })
 
 router.isReady().then(() => {
-    if (!app) return
-    app.mount('#app')
+  if (!app) return
+  app.mount('#app')
 })
 
 

@@ -9,7 +9,7 @@ export interface IMyRouteItem {
         title: string,
         alwaysShow?: boolean,
     },
-    props?: any,
+    props?: Record<string, any>,
     hidden?: boolean,
     children?: Array<IMyRouteItem>,
 }

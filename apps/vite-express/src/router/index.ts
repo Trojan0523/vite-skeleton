@@ -18,16 +18,16 @@ export const constantRoutes: Array<IMyRouteItem> = [
 const history = createWebHistory('/')
 
 const router = createRouter({
-    history,
-    routes: constantRoutes as Array<RouteRecordRaw>,
-  })
+  history,
+  routes: constantRoutes as Array<RouteRecordRaw>,
+})
   
-  export function setupRouter (app: App) {
-    app.use(router)
-  }
+export function setupRouter (app: App) {
+  app.use(router)
+}
   
-  export function destroyRouter () {
-    history.destroy()
-  }
+export function destroyRouter () {
+  history.destroy()
+}
   
-  export default router
+export default router
