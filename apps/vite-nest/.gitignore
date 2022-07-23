@@ -22,14 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-.DS_Store
-tests/**/coverage/
-
-# 测试覆盖率文件夹
-coverage/
-# rollup可视化分析插件页面
-stats.html
-
-auto-imports.d.ts
-components.d.ts

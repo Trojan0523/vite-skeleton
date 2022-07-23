@@ -56,6 +56,43 @@ importers:
       vitest: 0.18.1_jsdom@20.0.0
       vue-tsc: 0.38.9_typescript@4.7.4
 
+  apps/vite-nest:
+    specifiers:
+      '@typescript-eslint/eslint-plugin': ^5.30.7
+      '@typescript-eslint/parser': ^5.30.7
+      '@vitejs/plugin-legacy': ^2.0.0
+      '@vitejs/plugin-vue': ^3.0.0
+      '@vitejs/plugin-vue-jsx': ^2.0.0
+      cross-env: ^7.0.3
+      eslint: ^8.20.0
+      eslint-plugin-vue: ^9.2.0
+      jsdom: ^20.0.0
+      pinia: ^2.0.16
+      typescript: ^4.6.4
+      vite: ^3.0.0
+      vitest: ^0.18.1
+      vue: ^3.2.37
+      vue-router: ^4.1.2
+      vue-tsc: ^0.38.4
+    dependencies:
+      pinia: 2.0.16_j6bzmzd4ujpabbp5objtwxyjp4
+      vue: 3.2.37
+      vue-router: 4.1.2_vue@3.2.37
+    devDependencies:
+      '@typescript-eslint/eslint-plugin': 5.30.7_6wltbjakwuqm7awqswigmiuhd4
+      '@typescript-eslint/parser': 5.30.7_he2ccbldppg44uulnyq4rwocfa
+      '@vitejs/plugin-legacy': 2.0.0_vite@3.0.2
+      '@vitejs/plugin-vue': 3.0.1_vite@3.0.2+vue@3.2.37
+      '@vitejs/plugin-vue-jsx': 2.0.0_vite@3.0.2+vue@3.2.37
+      cross-env: 7.0.3
+      eslint: 8.20.0
+      eslint-plugin-vue: 9.2.0_eslint@8.20.0
+      jsdom: 20.0.0
+      typescript: 4.7.4
+      vite: 3.0.2
+      vitest: 0.18.1_jsdom@20.0.0
+      vue-tsc: 0.38.9_typescript@4.7.4
+
 packages:
 
   /@ampproject/remapping/2.2.0:

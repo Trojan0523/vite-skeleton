@@ -1,0 +1,40 @@
+{
+  "name": "vite-nest",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "type:check": "vue-tsc --noEmit",
+    "test:unit": "vitest run --update",
+    "test:watch": "vitest watch -u",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint --ext .js,.ts,.vue,.tsx, src --fix",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "dependencies": {
+    "vue": "^3.2.37",
+    "pinia": "^2.0.16",
+    "vue-router": "^4.1.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "@vitejs/plugin-vue-jsx": "^2.0.0",
+    "@vitejs/plugin-legacy": "^2.0.0",
+    "eslint": "^8.20.0",
+    "eslint-plugin-vue": "^9.2.0",
+    "typescript": "^4.6.4",
+    "jsdom": "^20.0.0",
+    "cross-env": "^7.0.3",
+    "vite": "^3.0.0",
+    "vitest": "^0.18.1",
+    "vue-tsc": "^0.38.4"
+  },
+  "engines": {
+    "node": "> 16"
+  }
+}
