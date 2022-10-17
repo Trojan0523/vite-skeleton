@@ -1,3 +1,3 @@
 {
-    "extends": ["github/trojan0523/renovate-config"]
+    "extends": ["github>trojan0523/renovate-config"]
 }
