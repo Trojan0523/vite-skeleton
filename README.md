@@ -2,20 +2,18 @@
 
 - Trojan初始化Client端 模板
 
-1. express-ts & vite  missing alias path hint for vite
+- [x] express-ts & vite  missing alias path hint for vite
+- [x] nest & vite
+- [] express-ts & vite ssr
 
-2. nest & vite
+- [] esno 解析ts
 
-3. express-ts & vite ssr
+- [] swc es6 -> es5 升降级
 
-- esno 解析ts
+- [x] monorepo
 
-- swc es6 -> es5 升降级
+- [] missing husky for children app husky
 
-- monorepo
+- [] ci/cd
 
-- missing husky for children app husky
-
-- ci/cd
-
-- unit test
+- [] unit test
