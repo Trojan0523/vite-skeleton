@@ -4,16 +4,16 @@
 
 - [x] express-ts & vite  missing alias path hint for vite
 - [x] nest & vite
-- [] express-ts & vite ssr
+- [ ] express-ts & vite ssr
 
-- [] esno 解析ts
+- [ ] esno 解析ts
 
-- [] swc es6 -> es5 升降级
+- [ ] swc es6 -> es5 升降级
 
 - [x] monorepo
 
-- [] missing husky for children app husky
+- [ ] missing husky for children app husky
 
-- [] ci/cd
+- [ ] ci/cd
 
-- [] unit test
+- [ ] unit test
