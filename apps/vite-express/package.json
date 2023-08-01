@@ -17,7 +17,7 @@
   "dependencies": {
     "body-parser": "^1.20.0",
     "dotenv": "^16.0.1",
-    "esno": "^0.16.3",
+    "esno": "^0.17.0",
     "express": "^4.18.1",
     "pinia": "^2.0.16",
     "vue": "^3.2.37",
@@ -38,7 +38,7 @@
     "picocolors": "^1.0.0",
     "typescript": "^4.6.4",
     "vite": "^3.0.0",
-    "vitest": "^0.25.0",
+    "vitest": "^0.34.0",
     "vue-tsc": "^1.0.0"
   },
   "engines": {
